@@ -1,18 +1,21 @@
-@import url("../fonts.css");
-
 .projects-container {
   position: absolute;
-  top: calc(
-    210%
-  ); /* Position the top of the container below the hello-container */
-  left: 50%;
+  top: 150%; /* Adjust this value as needed */
+  left: 50%; /* Center horizontally */
   transform: translateX(-50%);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  height: 20vmin;
-  width: 70vmin;
+  max-width: 70vmin; /* Limit width */
+  width: 90%; /* Default width */
+  height: auto; /* Allow height to adjust based on content */
+}
+
+@media screen and (max-width: 768px) {
+  .projects-container {
+    width: 95%; /* Adjust width for smaller screens */
+  }
 }
 
 .projects-title {
