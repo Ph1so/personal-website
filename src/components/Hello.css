@@ -1,0 +1,62 @@
+@import url("../fonts.css");
+
+.hello-container {
+  position: absolute;
+  top: 50%; /* Position the top of the container at the vertical center of its container */
+  left: 50%; /* Position the left side of the container at the horizontal center of its container */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Move the container back by half of its own width and height */
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Center the div horizontally */
+  align-items: center;
+  height: 25vmin;
+  width: 70vmin;
+}
+
+.pfp-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align items to the start of the container (left side) */
+  align-items: left; /* Center items vertically */
+  height: 25vmin;
+  width: 40vmin;
+  margin-right: 3rem;
+}
+
+.hello {
+  font-family: "Satoshi", sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+}
+
+.description {
+  font-family: "Satoshi", sans-serif;
+  font-size: 1.6rem;
+  color: #666;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.img {
+  width: 25vmin;
+  height: auto;
+  border-radius: 4rem;
+  margin-bottom: 2vmin;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left; /* Align items to the start of the container (left side) */
+  align-items: center;
+}
+
+.icons-container a {
+  margin: 0 10px; /* Adjust the spacing between icons */
+}

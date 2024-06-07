@@ -1,0 +1,137 @@
+@import url("../fonts.css");
+
+.projects-container {
+  position: absolute;
+  top: calc(
+    210%
+  ); /* Position the top of the container below the hello-container */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  height: 20vmin;
+  width: 70vmin;
+}
+
+.projects-title {
+  font-family: "Satoshi", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.projects-description {
+  font-family: "Satoshi", sans-serif;
+  font-size: 1.2rem;
+  color: #666;
+  text-align: left;
+  margin-bottom: 5rem;
+}
+
+.project1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.project1-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 25vmin;
+  width: 40vmin;
+  margin-right: 3rem;
+}
+
+.project1-img1 {
+  transform: translateY(-4vmin); /* Move image up */
+  width: 25vmin;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project1-img2 {
+  transform: translateY(-4vmin); /* Move image up */
+  width: 20vmin;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 2vmin; /* Margin between img1 and img2 */
+}
+
+.project1-title {
+  font-family: "Satoshi", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.project1-description {
+  font-family: "Satoshi", sans-serif;
+  font-size: 1.2rem;
+  color: #666;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.project2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.project2-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 25vmin;
+  width: 40vmin;
+  margin-right: 3rem;
+}
+
+.project2-img1 {
+  transform: translateY(-4vmin); /* Move image up */
+  width: 25vmin;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project2-img2 {
+  transform: translateY(-4vmin); /* Move image up */
+  width: 20vmin;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 2vmin; /* Margin between img1 and img2 */
+}
+
+.project2-title {
+  font-family: "Satoshi", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.project2-description {
+  font-family: "Satoshi", sans-serif;
+  font-size: 1.2rem;
+  color: #666;
+  text-align: left;
+  margin-bottom: 1rem;
+}
