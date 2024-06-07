@@ -14,8 +14,12 @@ const Projects = () => {
       </div>
       <div className="project1">
         <div className="project1-images">
-          <img src="/logo.png" alt="PyLabRobot" className="project1-img1" />
-          <img src="/IMG_9959.jpg" alt="centrifuge" className="project1-img2" />
+          <img src="./logo.png" alt="PyLabRobot" className="project1-img1" />
+          <img
+            src="./IMG_9959.jpg"
+            alt="centrifuge"
+            className="project1-img2"
+          />
         </div>
         <div className="project1-container">
           <div className="project1-title">PyLabRobot</div>
@@ -39,7 +43,7 @@ const Projects = () => {
       <div className="project2">
         <div className="project2-images">
           <img
-            src="/accuracy score.png"
+            src="./accuracy score.png"
             alt="accscore"
             className="project2-img1"
           />
