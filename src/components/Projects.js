@@ -25,11 +25,11 @@ const Projects = () => {
           <div className="project1-title">PyLabRobot</div>
           <div className="project1-description">
             PyLabRobot is an open-source lab automation project at the MIT Media
-            Lab. My work revolves around reverse-engineering the Agilent
-            Centrifuge from Agilent Technologies. I focus on the software side
-            of the project, developing a Python library to control the
-            centrifuge. When needed, I also work on fixing bugs and adding new
-            features.
+            Lab. Here, I get to play around with robots, reverse-engineering the
+            Agilent Centrifuge from Agilent Technologies. I focus on the
+            software side of the project where I develop a Python library to
+            control the centrifuge. When needed, I also work on fixing bugs and
+            adding new features.
           </div>
           <a
             href="https://github.com/PyLabRobot"

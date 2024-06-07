@@ -1,59 +1,104 @@
-@import url("../fonts.css");
-
 .hello-container {
   position: absolute;
-  top: 50%; /* Position the top of the container at the vertical center of its container */
-  left: 50%; /* Position the left side of the container at the horizontal center of its container */
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: row;
-  justify-content: center; /* Center the div horizontally */
+  justify-content: center;
   align-items: center;
-  height: 25vmin;
-  width: 70vmin;
+  width: 90%;
+  max-width: 70vmin;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 .pfp-container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* Align items to the start of the container (left side) */
-  align-items: left; /* Center items vertically */
-  height: 25vmin;
-  width: 40vmin;
-  margin-right: 3rem;
+  justify-content: center;
+  align-items: flex-start;
+  width: 60%;
+  margin-right: 2rem;
 }
 
 .hello {
   font-family: "Satoshi", sans-serif;
-  font-size: 3.5rem;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.type-animation {
+  font-size: clamp(2rem, 5vw, 3.5rem); /* Responsive font size */
   font-weight: bold;
   color: #333;
-  text-align: left;
 }
 
 .description {
   font-family: "Satoshi", sans-serif;
-  font-size: 1.6rem;
+  font-size: clamp(1rem, 2.5vw, 1.6rem);
   color: #666;
   text-align: left;
   margin-bottom: 1rem;
 }
 
 .img {
-  width: 25vmin;
+  width: 30vmin;
   height: auto;
   border-radius: 4rem;
-  margin-bottom: 2vmin;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .icons-container {
   display: flex;
   flex-direction: row;
-  justify-content: left; /* Align items to the start of the container (left side) */
+  justify-content: flex-start;
   align-items: center;
 }
 
 .icons-container a {
-  margin: 0 10px; /* Adjust the spacing between icons */
+  margin: 0 10px;
+}
+
+.icon {
+  color: black;
+  width: 6vmin;
+  height: 6vmin;
+}
+
+@media screen and (max-width: 768px) {
+  .hello-container {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .pfp-container {
+    width: 100%;
+    align-items: center;
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .type-animation {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+  }
+
+  .description {
+    font-size: clamp(0.8rem, 2vw, 1.4rem);
+    text-align: center;
+  }
+
+  .icons-container {
+    justify-content: center;
+  }
+
+  .img {
+    width: 50vmin;
+  }
+
+  .icon {
+    width: 8vmin;
+    height: 8vmin;
+  }
 }

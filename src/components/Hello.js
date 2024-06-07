@@ -12,27 +12,21 @@ const Hello = () => {
         <div className="hello">
           <TypeAnimation
             sequence={[
-              "Hello, ",
+              "Hello,         ",
               200,
-              "Hello, I",
+              "Hello, I       ",
               400,
-              "Hello, I'm",
+              "Hello, I'm     ",
               700,
-              "Hello, I'm ",
+              "Hello, I'm     ",
               400,
               "Hello, I'm Phi.",
               2500,
-              "",
+              "               ",
               2000,
             ]}
             speed={225}
-            style={{
-              fontFamily: "Satoshi, sans-serif",
-              fontSize: "3.5rem",
-              fontWeight: "bold",
-              color: "#333",
-              textAlign: "left",
-            }}
+            className="type-animation"
             repeat={Infinity}
           />
         </div>
@@ -45,17 +39,17 @@ const Hello = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <DiGithubBadge size={50} color="black" />
+            <DiGithubBadge className="icon github-icon" />
           </a>
           <a
             href="https://www.linkedin.com/in/phi-nguyen-64b170230/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin size={40} color="black" />
+            <FaLinkedin className="icon linkedin-icon" />
           </a>
           <a href="mailto:phiwe3296@gmail.com">
-            <MdEmail size={50} color="black" />
+            <MdEmail className="icon email-icon" />
           </a>
         </div>
       </div>
