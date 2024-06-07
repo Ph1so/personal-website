@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.d39b91a7.css",
-    "main.js": "/website/static/js/main.88f63c96.js",
+    "main.css": "/website/static/css/main.af9962ab.css",
+    "main.js": "/website/static/js/main.11cf8881.js",
     "static/media/Satoshi-Regular.woff": "/website/static/media/Satoshi-Regular.ca3da5fd2b609836ef69.woff",
-    "static/media/Satoshi-Bold.woff": "/website/static/media/Satoshi-Bold.a875ff682ee232938607.woff",
     "static/media/Satoshi-Regular.woff2": "/website/static/media/Satoshi-Regular.9ec05085c4cd2966eba8.woff2",
-    "static/media/Satoshi-Bold.woff2": "/website/static/media/Satoshi-Bold.a0e6d25529eab537426c.woff2",
     "index.html": "/website/index.html",
-    "main.d39b91a7.css.map": "/website/static/css/main.d39b91a7.css.map",
-    "main.88f63c96.js.map": "/website/static/js/main.88f63c96.js.map"
+    "main.af9962ab.css.map": "/website/static/css/main.af9962ab.css.map",
+    "main.11cf8881.js.map": "/website/static/js/main.11cf8881.js.map"
   },
   "entrypoints": [
-    "static/css/main.d39b91a7.css",
-    "static/js/main.88f63c96.js"
+    "static/css/main.af9962ab.css",
+    "static/js/main.11cf8881.js"
   ]
 }
