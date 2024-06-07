@@ -59,7 +59,7 @@ const Hello = () => {
           </a>
         </div>
       </div>
-      <img src="/IMG_6919.jpg" alt="Phi" className="img" />
+      <img src="./IMG_6919.jpg" alt="Phi" className="img" />
     </div>
   );
 };
