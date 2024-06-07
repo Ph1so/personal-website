@@ -11,8 +11,10 @@ const About = () => {
         a B.S. in Computer Science. On weekends I'm a Software Developer Intern
         at the <span className="red">MIT Media Lab</span> where I work on
         PyLabRobot. I'm passionate about software engineering and I enjoy
-        learning AI/ML during my free-time. When I'm not coding, I'm a 3D artist
-        on Blender.
+        learning AI/ML during my free-time. <br />
+        <br />
+        When I'm not coding, I'm a foosball enthusiast and a 3D artist on
+        Blender.
       </div>
     </div>
   );

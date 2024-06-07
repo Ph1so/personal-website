@@ -6,10 +6,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1200px;
+  max-width: 90vmin;
   margin: 0 auto;
   box-sizing: border-box;
-  /* background-color: red; */
 }
 
 .projects-title {
