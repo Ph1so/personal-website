@@ -1,6 +1,6 @@
 .footer {
   position: absolute;
-  bottom: -180%; /* Position at the bottom of the viewport */
+  bottom: -200%; /* Position at the bottom of the viewport */
   left: 50%; /* Center horizontally */
   transform: translateX(-50%);
   display: flex;

@@ -1,6 +1,6 @@
 .projects-container {
   position: absolute;
-  top: 150%; /* Adjust this value as needed */
+  top: 170%; /* Adjust this value as needed */
   left: 50%; /* Center horizontally */
   transform: translateX(-50%);
   display: flex;
