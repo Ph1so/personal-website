@@ -1,6 +1,5 @@
 .footer {
-  position: absolute;
-  bottom: -200%; /* Position at the bottom of the viewport */
+  position: relative;
   left: 50%; /* Center horizontally */
   transform: translateX(-50%);
   display: flex;
@@ -10,10 +9,4 @@
   max-width: 70vmin; /* Limit width */
   width: 90%; /* Default width */
   height: 20vmin;
-}
-
-@media screen and (max-width: 768px) {
-  .footer {
-    width: 95%; /* Adjust width for smaller screens */
-  }
 }

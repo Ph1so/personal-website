@@ -12,18 +12,20 @@ const Hello = () => {
         <div className="hello">
           <TypeAnimation
             sequence={[
-              "Hello,         ",
-              200,
-              "Hello, I       ",
+              "Helllo",
               400,
-              "Hello, I'm     ",
+              "Hello,",
+              200,
+              "Hello, I",
+              400,
+              "Hello, I'm",
               700,
-              "Hello, I'm     ",
+              "Hello, I'm ",
               400,
               "Hello, I'm Phi.",
               2500,
-              "               ",
-              2000,
+              "",
+              1750,
             ]}
             speed={225}
             className="type-animation"

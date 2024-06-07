@@ -1,31 +1,18 @@
 @import url("../fonts.css");
 
 .about-container {
-  position: absolute;
-  top: 100%;
-  left: 50%; /* Center horizontally */
-  transform: translate(-50%);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
+  align-items: center; /* Center horizontally */
   max-width: 70vmin; /* Limit width */
   width: 90%; /* Default width */
   height: auto; /* Allow height to adjust based on content */
-  background-color: red;
-}
-
-/* Optional: Add media query for smaller screens */
-@media screen and (max-width: 768px) {
-  .about-container {
-    width: 95%; /* Adjust width for smaller screens */
-  }
 }
 
 .about-title {
   font-family: "Satoshi", sans-serif;
   font-size: 3rem;
-  font-weight: bold;
   color: #333;
   text-align: left;
   margin-bottom: 1rem;
@@ -40,4 +27,20 @@
 
 .red {
   color: #a91d3a;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+  .about-container {
+    width: 100%; /* Full width for smaller screens */
+    padding: 0 20px; /* Add some horizontal padding */
+  }
+
+  .about-title {
+    font-size: 2.5rem; /* Decrease font size for smaller screens */
+  }
+
+  .about-description {
+    font-size: 1rem; /* Decrease font size for smaller screens */
+  }
 }

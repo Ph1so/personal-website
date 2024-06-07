@@ -1,0 +1,8 @@
+.app-container {
+  margin-top: 35vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align items to the start of the container */
+  align-items: center; /* Center horizontally */
+  gap: 40vmin;
+}

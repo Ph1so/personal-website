@@ -12,18 +12,14 @@ const Projects = () => {
         Additionally, you'll find some more details on my contributions to
         PyLabRobot.
       </div>
-      <div className="project1">
-        <div className="project1-images">
-          <img src="./logo.png" alt="PyLabRobot" className="project1-img1" />
-          <img
-            src="./IMG_9959.jpg"
-            alt="centrifuge"
-            className="project1-img2"
-          />
+      <div className="project">
+        <div className="project-images">
+          <img src="./IMG_9959.jpg" alt="centrifuge" className="project-img" />
+          <img src="./IMG_9972.jpg" alt="lh" className="project-img" />
         </div>
-        <div className="project1-container">
-          <div className="project1-title">PyLabRobot</div>
-          <div className="project1-description">
+        <div className="project-content">
+          <div className="project-title">PyLabRobot</div>
+          <div className="project-description">
             PyLabRobot is an open-source lab automation project at the MIT Media
             Lab. Here, I get to play around with robots, reverse-engineering the
             Agilent Centrifuge from Agilent Technologies. I focus on the
@@ -40,19 +36,19 @@ const Projects = () => {
           </a>
         </div>
       </div>
-      <div className="project2">
-        <div className="project2-images">
+      <div className="project">
+        <div className="project-images">
           <img
             src="./accuracy score.png"
             alt="accscore"
-            className="project2-img1"
+            className="project-img"
           />
         </div>
-        <div className="project2-container">
-          <div className="project2-title">Symptoms Disease Classification</div>
-          <div className="project2-description">
+        <div className="project-content">
+          <div className="project-title">Symptoms Disease Classification</div>
+          <div className="project-description">
             In this project, I built a machine learning model to classify
-            diseases based on given symptoms, acheiving 99.4% accuracy using
+            diseases based on given symptoms, achieving 99.4% accuracy using
             Decision Trees. The steps I took included data preprocessing, model
             selection and training, and model evaluation using several
             performance assessment metrics. For future improvements, I plan to
