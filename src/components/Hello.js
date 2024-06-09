@@ -12,7 +12,7 @@ const Hello = () => {
         <div className="hello">
           <TypeAnimation
             sequence={[
-              "Helllo",
+              "Helo",
               400,
               "Hello,",
               200,

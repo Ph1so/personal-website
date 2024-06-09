@@ -53,8 +53,8 @@
   border-radius: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin-bottom: 1rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
 }
 
 .project-content {
@@ -68,6 +68,7 @@
 .project-title {
   font-family: "Satoshi", sans-serif;
   font-size: clamp(1rem, 2.5vw, 1.5rem);
+  font-weight: bold;
   color: #333;
   text-align: center; /* Center text */
   margin-bottom: 2rem;
@@ -92,12 +93,8 @@
     align-items: flex-start; /* Align items to the top */
   }
 
-  .project-images {
-    margin-right: 2rem; /* Adjust margin */
-  }
-
   .project-img {
-    margin-left: 0.75rem;
-    margin-right: 0.75rem;
+    margin-left: 0.45rem;
+    margin-right: 0.45rem;
   }
 }

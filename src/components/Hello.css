@@ -33,7 +33,7 @@
 
 .description {
   font-family: "Satoshi", sans-serif;
-  font-size: clamp(1rem, 2.5vw, 1.6rem);
+  font-size: clamp(1.2rem, 2.5vw, 1.6rem);
   color: #666;
   text-align: left;
   margin-bottom: 1rem;
@@ -77,12 +77,11 @@
     margin-bottom: 2rem;
   }
 
-  .type-animation {
+  /* .type-animation {
     font-size: clamp(1.5rem, 4vw, 2.5rem);
-  }
+  } */
 
   .description {
-    font-size: clamp(0.8rem, 2vw, 1.4rem);
     text-align: center;
   }
 
