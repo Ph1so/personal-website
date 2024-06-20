@@ -86,6 +86,18 @@
   text-align: left;
 }
 
+.github-link {
+  color: black;
+  width: 6vmin;
+  height: 6vmin;
+  transition: color 0.3s, transform 0.3s; /* Smooth transition for the effects */
+}
+
+.github-link:hover {
+  color: #a91d3a; /* Change color on hover */
+  transform: scale(1.1); /* Slightly increase the size on hover */
+}
+
 @media screen and (min-width: 768px) {
   .project {
     flex-direction: column; /* Change to row */

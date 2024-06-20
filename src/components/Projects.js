@@ -30,8 +30,9 @@ const Projects = () => {
             href="https://github.com/PyLabRobot"
             target="_blank"
             rel="noopener noreferrer"
+            className="github-link"
           >
-            <DiGithubBadge size={50} color="black" />
+            <DiGithubBadge size={50} />
           </a>
         </div>
       </div>
@@ -58,8 +59,9 @@ const Projects = () => {
             href="https://github.com/Ph1so/Symptoms-Disease-Classification"
             target="_blank"
             rel="noopener noreferrer"
+            className="github-link"
           >
-            <DiGithubBadge size={50} color="black" />
+            <DiGithubBadge size={50} />
           </a>
         </div>
       </div>

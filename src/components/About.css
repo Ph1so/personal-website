@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center; /* Center horizontally */
-  max-width: 70vmin; /* Limit width */
+  max-width: 75vmin; /* Limit width */
   width: 90%; /* Default width */
   height: auto; /* Allow height to adjust based on content */
 }

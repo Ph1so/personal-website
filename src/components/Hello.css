@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 70vmin;
+  max-width: 75vmin;
   padding: 1rem;
   box-sizing: border-box;
 }
@@ -28,6 +28,11 @@
 
 .type-animation {
   font-size: clamp(2rem, 5vw, 3.5rem); /* Responsive font size */
+  /* background-image: url("../../public/bg1.gif");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent; */
   color: #333;
 }
 
@@ -61,9 +66,59 @@
   color: black;
   width: 6vmin;
   height: 6vmin;
+  transition: color 0.3s, transform 0.3s; /* Smooth transition for the effects */
 }
 
-@media screen and (max-width: 768px) {
+.icon:hover {
+  color: #a91d3a; /* Change color on hover */
+  transform: scale(1.1); /* Slightly increase the size on hover */
+}
+
+.linkedin-icon {
+  width: 5vmin; /* Adjust the size as needed */
+  height: 5vmin;
+}
+
+/* Large tablets and small laptops (landscape mode) */
+/* @media screen and (max-width: 1280px) {
+  .hello-container {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .pfp-container {
+    width: 100%;
+    align-items: center;
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .icons-container {
+    justify-content: center;
+  }
+
+  .img {
+    width: 35vmin;
+  }
+
+  .icon {
+    width: 7vmin;
+    height: 7vmin;
+  }
+
+  .linkedin-icon {
+    width: 6vmin; 
+    height: 6vmin;
+  }
+} */
+
+/* Tablet and small laptops (portrait mode) */
+@media screen and (max-width: 1024px) {
   .hello-container {
     flex-direction: column;
     width: 100%;
@@ -90,11 +145,54 @@
   }
 
   .img {
-    width: 50vmin;
+    width: 40vmin;
   }
 
   .icon {
     width: 8vmin;
     height: 8vmin;
+  }
+
+  .linkedin-icon {
+    width: 7vmin; /* Adjust the size as needed */
+    height: 7vmin;
+  }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 768px) {
+  .hello-container {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .pfp-container {
+    width: 100%;
+    align-items: center;
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .icons-container {
+    justify-content: center;
+  }
+
+  .img {
+    width: 40vmin;
+  }
+
+  .icon {
+    width: 8vmin;
+    height: 8vmin;
+  }
+
+  .linkedin-icon {
+    width: 7vmin; /* Adjust the size as needed */
+    height: 7vmin;
   }
 }
