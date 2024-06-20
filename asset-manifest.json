@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.3b52c156.css",
-    "main.js": "/static/js/main.92a2d3ae.js",
+    "main.css": "/static/css/main.2ee21113.css",
+    "main.js": "/static/js/main.23f30d57.js",
     "static/media/Satoshi-Regular.woff": "/static/media/Satoshi-Regular.ca3da5fd2b609836ef69.woff",
     "static/media/Satoshi-Bold.woff": "/static/media/Satoshi-Bold.a875ff682ee232938607.woff",
     "static/media/Satoshi-Regular.woff2": "/static/media/Satoshi-Regular.9ec05085c4cd2966eba8.woff2",
     "static/media/Satoshi-Bold.woff2": "/static/media/Satoshi-Bold.a0e6d25529eab537426c.woff2",
     "index.html": "/index.html",
-    "main.3b52c156.css.map": "/static/css/main.3b52c156.css.map",
-    "main.92a2d3ae.js.map": "/static/js/main.92a2d3ae.js.map"
+    "main.2ee21113.css.map": "/static/css/main.2ee21113.css.map",
+    "main.23f30d57.js.map": "/static/js/main.23f30d57.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b52c156.css",
-    "static/js/main.92a2d3ae.js"
+    "static/css/main.2ee21113.css",
+    "static/js/main.23f30d57.js"
   ]
 }
