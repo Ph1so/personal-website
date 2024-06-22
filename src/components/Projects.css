@@ -13,7 +13,7 @@
 
 .projects-title {
   font-family: "Satoshi", sans-serif;
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(2rem, 5vw, 3.5rem);
   color: #333;
   text-align: left;
   margin-bottom: 1rem;
@@ -94,7 +94,7 @@
 }
 
 .github-link:hover {
-  color: #a91d3a; /* Change color on hover */
+  /* color: #a91d3a; */
   transform: scale(1.1); /* Slightly increase the size on hover */
 }
 

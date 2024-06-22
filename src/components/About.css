@@ -13,7 +13,7 @@
 
 .about-title {
   font-family: "Satoshi", sans-serif;
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(2rem, 5vw, 3.5rem); /* Responsive font size */
   color: #333;
   text-align: left;
   margin-bottom: 1rem;
@@ -43,5 +43,9 @@
 
   .about-description {
     font-size: 1rem; /* Decrease font size for smaller screens */
+  }
+
+  .about-title {
+    font-size: 2em;
   }
 }

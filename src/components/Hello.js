@@ -12,7 +12,7 @@ const Hello = () => {
         <div className="hello">
           <TypeAnimation
             sequence={[
-              "Helo",
+              "Hello",
               400,
               "Hello,",
               200,
@@ -23,13 +23,13 @@ const Hello = () => {
               "Hello, I'm ",
               400,
               "Hello, I'm Phi.",
-              2500,
-              "",
-              1750,
+              // 2500,
+              // "",
+              // 1750,
             ]}
             speed={225}
             className="type-animation"
-            repeat={Infinity}
+            repeat={0}
           />
         </div>
         <div className="description">

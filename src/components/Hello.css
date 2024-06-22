@@ -28,12 +28,12 @@
 
 .type-animation {
   font-size: clamp(2rem, 5vw, 3.5rem); /* Responsive font size */
-  /* background-image: url("../../public/bg1.gif");
+  background-image: url("../../public/bg1.gif");
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent; */
-  color: #333;
+  color: transparent;
+  /* color: #333; */
 }
 
 .description {
@@ -70,7 +70,7 @@
 }
 
 .icon:hover {
-  color: #a91d3a; /* Change color on hover */
+  /* color: #a91d3a;  */
   transform: scale(1.1); /* Slightly increase the size on hover */
 }
 
