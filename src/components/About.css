@@ -9,6 +9,7 @@
   max-width: 75vmin; /* Limit width */
   width: 90%; /* Default width */
   height: auto; /* Allow height to adjust based on content */
+  /* Add a transition effect if needed for non-animated properties */
 }
 
 .about-title {
@@ -43,9 +44,5 @@
 
   .about-description {
     font-size: 1rem; /* Decrease font size for smaller screens */
-  }
-
-  .about-title {
-    font-size: 2em;
   }
 }

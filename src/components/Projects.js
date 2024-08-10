@@ -1,10 +1,22 @@
 import React from "react";
-import "./Projects.css";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 import { DiGithubBadge } from "react-icons/di";
+import "./Projects.css";
 
 const Projects = () => {
+  const { ref, inView } = useInView({
+    threshold: 0.1, // Percentage of the component that needs to be visible
+  });
+
   return (
-    <div className="projects-container">
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0, y: 50 }} // Initial state
+      animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }} // Animation based on visibility
+      transition={{ duration: 0.6, ease: "easeOut" }} // Transition properties
+      className="projects-container"
+    >
       <div className="projects-title">Projects</div>
       <div className="projects-description">
         Explore some of the exciting projects I've been working on! These
@@ -65,7 +77,7 @@ const Projects = () => {
           </a>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
