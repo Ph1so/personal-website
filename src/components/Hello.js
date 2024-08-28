@@ -33,7 +33,7 @@ const Hello = () => {
           />
         </div>
         <div className="description">
-          I'm an aspiring software engineer based in Boston, MA.
+          I'm a student and software developer based in Boston, MA.
         </div>
         <div className="icons-container">
           <a

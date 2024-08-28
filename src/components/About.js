@@ -72,7 +72,8 @@ const About = ({ images }) => {
         <button onClick={nextSlide} className="carousel-button right">
           &#10095;
         </button>
-        <div className="carousel-indicators">
+        {/* Remove or comment out this block to hide the indicators */}
+        {/* <div className="carousel-indicators">
           {images.map((_, index) => (
             <button
               key={index}
@@ -80,7 +81,7 @@ const About = ({ images }) => {
               className={`indicator ${index === currentIndex ? "active" : ""}`}
             ></button>
           ))}
-        </div>
+        </div> */}
       </div>
     </motion.div>
   );
