@@ -42,7 +42,6 @@ const About = ({ images }) => {
       transition={{ duration: 0.6, ease: "easeOut" }}
       className="about-container"
     >
-      <img src="public/b1.jpg" alt="lh" className="project-img" />
       <div className="about-title">About Me</div>
       <div className="about-description">
         I'm currently a student at{" "}

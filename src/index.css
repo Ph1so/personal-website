@@ -6,3 +6,7 @@
   align-items: center; /* Center horizontally */
   gap: 40vmin;
 }
+
+.About {
+  overflow-y: auto;
+}
