@@ -58,7 +58,7 @@ const About = ({ images }) => {
         <img src="./b3.jpg" alt="centrifuge" className="blender-img" />
         <img src="./b5.jpg" alt="lh" className="blender-img" />
       </div>
-      <div className="carousel-container">
+      {/* <div className="carousel-container">
         <div className="image-wrapper">
           <img
             src={images[currentIndex]}
@@ -71,9 +71,9 @@ const About = ({ images }) => {
         </button>
         <button onClick={nextSlide} className="carousel-button right">
           &#10095;
-        </button>
-        {/* Remove or comment out this block to hide the indicators */}
-        {/* <div className="carousel-indicators">
+        </button> */}
+      {/* Remove or comment out this block to hide the indicators */}
+      {/* <div className="carousel-indicators">
           {images.map((_, index) => (
             <button
               key={index}
@@ -82,7 +82,32 @@ const About = ({ images }) => {
             ></button>
           ))}
         </div> */}
+      {/* </div> */}
+      <div className="about-description" style={{ marginBottom: "1em" }}>
+        Also have to drop the songs I'm listening to.
       </div>
+      <iframe
+        style={{ borderRadius: "12px" }} // Corrected the inline style
+        src="https://open.spotify.com/embed/track/0f8eRy9A0n6zXpKSHSCAEp?utm_source=generator&theme=0"
+        width="100%"
+        height="152"
+        frameBorder="0"
+        allowFullScreen="" // Changed to camelCase for React
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+        title="Spotify Player"
+      ></iframe>
+      <iframe
+        style={{ borderRadius: "12px", marginTop: "1rem" }} // Corrected the inline style
+        src="https://open.spotify.com/embed/track/3hxIUxnT27p5WcmjGUXNwx?utm_source=generator&theme=0"
+        width="100%"
+        height="152"
+        frameBorder="0"
+        allowFullScreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+        title="SPotify Player"
+      ></iframe>
     </motion.div>
   );
 };
