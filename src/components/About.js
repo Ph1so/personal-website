@@ -87,26 +87,15 @@ const About = ({ images }) => {
         Also have to drop the songs I'm listening to.
       </div>
       <iframe
-        style={{ borderRadius: "12px" }} // Corrected the inline style
-        src="https://open.spotify.com/embed/track/0f8eRy9A0n6zXpKSHSCAEp?utm_source=generator&theme=0"
+        style={{ borderRadius: "12px" }}
+        src="https://open.spotify.com/embed/playlist/0Th8tr21b9cQu80rsnKYFs?utm_source=generator&theme=0"
         width="100%"
-        height="152"
-        frameBorder="0"
-        allowFullScreen="" // Changed to camelCase for React
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy"
-        title="Spotify Player"
-      ></iframe>
-      <iframe
-        style={{ borderRadius: "12px", marginTop: "1rem" }} // Corrected the inline style
-        src="https://open.spotify.com/embed/track/3hxIUxnT27p5WcmjGUXNwx?utm_source=generator&theme=0"
-        width="100%"
-        height="152"
+        height="352"
         frameBorder="0"
         allowFullScreen=""
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy"
-        title="SPotify Player"
+        title="Spotify Playlist"
       ></iframe>
     </motion.div>
   );
