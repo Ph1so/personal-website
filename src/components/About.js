@@ -88,7 +88,7 @@ const About = ({ images }) => {
       </div>
       <iframe
         style={{ borderRadius: "12px" }}
-        src="https://open.spotify.com/embed/playlist/0Th8tr21b9cQu80rsnKYFs?utm_source=generator&theme=0"
+        src="https://open.spotify.com/embed/playlist/0Th8tr21b9cQu80rsnKYFs?utm_source=generator"
         width="100%"
         height="352"
         frameBorder="0"
